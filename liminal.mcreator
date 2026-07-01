@@ -321,6 +321,41 @@
           "src/main/java/net/mcreator/liminal/procedures/PlayerTickUpdateProcedure.java"
         ]
       }
+    },
+    {
+      "name": "ExtractionBlockOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extraction_block_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/liminal/procedures/ExtractionBlockOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ExtractionBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extraction_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal/loot_table/blocks/extraction_block.json",
+          "src/main/resources/assets/liminal/models/item/extraction_block.json",
+          "src/main/resources/assets/liminal/blockstates/extraction_block.json",
+          "src/main/java/net/mcreator/liminal/block/ExtractionBlockBlock.java",
+          "src/main/resources/assets/liminal/items/extraction_block.json",
+          "src/main/resources/assets/liminal/models/block/extraction_block.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -337,6 +372,11 @@
     ],
     "BLOCKS:minecraft:wooden_doors": [
       "~CUSTOM:HotelDoorDoor"
+    ],
+    "ITEMS:minecraft:cell": [
+      "CUSTOM:PowerCell",
+      "CUSTOM:PowerCell1",
+      "CUSTOM:PowerCell2"
     ]
   },
   "tab_element_order": {},
@@ -354,7 +394,8 @@
       "item.liminal.power_cell_1": "Power Cell 33%",
       "item.liminal.power_cell_2": "Power Cell 66%",
       "item.liminal.power_cell_3": "Power Cell 100%",
-      "item.liminal.power_block": "Power Block"
+      "item.liminal.power_block": "Power Block",
+      "item.liminal.extraction_block": "Extraction Block"
     }
   },
   "metadata": {

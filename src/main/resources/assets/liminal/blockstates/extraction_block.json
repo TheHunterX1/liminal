@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "liminal:block/extraction_block"
+    }
+  }
+}

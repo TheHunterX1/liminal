@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "liminal:power_cell_2",
+    "liminal:power_cell_1",
+    "liminal:power_cell"
+  ]
+}

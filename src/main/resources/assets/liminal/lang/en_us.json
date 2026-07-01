@@ -11,5 +11,6 @@
   "item.liminal.power_cell_1": "Power Cell 33%",
   "item.liminal.power_cell_2": "Power Cell 66%",
   "item.liminal.power_cell_3": "Power Cell 100%",
-  "item.liminal.power_block": "Power Block"
+  "item.liminal.power_block": "Power Block",
+  "item.liminal.extraction_block": "Extraction Block"
 }

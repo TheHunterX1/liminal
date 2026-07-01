@@ -196,5 +196,10 @@ public class RedactedEntityEntity extends Monster {
 		return builder;
 	}
 
+	@Override
+    public boolean isPersistenceRequired() {
+        return true; 
+    }
+
 	
 }
