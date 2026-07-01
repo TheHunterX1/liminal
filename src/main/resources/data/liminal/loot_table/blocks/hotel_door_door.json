@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "liminal:blocks/hotel_door_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "liminal:hotel_door_door",
+          "conditions": [
+            {
+              "block": "liminal:hotel_door_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liminal:block/window",
+    "up": "minecraft:block/black_stained_glass",
+    "north": "liminal:block/window",
+    "east": "liminal:block/window",
+    "south": "liminal:block/window",
+    "west": "liminal:block/window",
+    "particle": "liminal:block/window"
+  },
+  "render_type": "cutout_mipped"
+}

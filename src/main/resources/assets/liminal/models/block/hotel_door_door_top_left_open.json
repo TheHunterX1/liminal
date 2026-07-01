@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left_open",
+  "textures": {
+    "particle": "liminal:block/hotel_door_door_bottom",
+    "bottom": "liminal:block/hotel_door_door_bottom",
+    "top": "liminal:block/new_piskel-8.png"
+  },
+  "render_type": "cutout"
+}

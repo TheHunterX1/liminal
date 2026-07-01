@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "liminal:item/new_piskel-10.png"
+  },
+  "render_type": "translucent"
+}

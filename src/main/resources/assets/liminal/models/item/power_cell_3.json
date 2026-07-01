@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "liminal:item/oxygen_tank-4.png"
+  }
+}

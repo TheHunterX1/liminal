@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/test_block_start",
+    "up": "minecraft:block/test_block_start",
+    "north": "minecraft:block/test_block_start",
+    "east": "minecraft:block/test_block_start",
+    "south": "minecraft:block/test_block_start",
+    "west": "minecraft:block/test_block_start",
+    "particle": "minecraft:block/test_block_start"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#liminal:hotel_door_logs",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "liminal:block/power_block"
+    }
+  }
+}

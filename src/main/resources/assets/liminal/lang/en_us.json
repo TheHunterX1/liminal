@@ -1,0 +1,15 @@
+{
+  "biome.liminal.hotel_biome": "Hotel Biome",
+  "key.liminal.swap_dimension": "Swap Dimension",
+  "item.liminal.hotel_carpet": "Hotel Carpet",
+  "item.liminal.hotel_wall": "Hotel Wall",
+  "item.liminal.hotel_door_door": "Hotel Door Door",
+  "item.liminal.window": "Window",
+  "item.liminal.redacted_entity_spawn_egg": "--- Spawn Egg",
+  "entity.liminal.redacted_entity": "---",
+  "item.liminal.power_cell": "Empty Power Cell",
+  "item.liminal.power_cell_1": "Power Cell 33%",
+  "item.liminal.power_cell_2": "Power Cell 66%",
+  "item.liminal.power_cell_3": "Power Cell 100%",
+  "item.liminal.power_block": "Power Block"
+}

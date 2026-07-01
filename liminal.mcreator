@@ -1,0 +1,398 @@
+{
+  "mod_elements": [
+    {
+      "name": "HotelBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hotel_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal/worldgen/biome/hotel_biome.json"
+        ]
+      }
+    },
+    {
+      "name": "Hotel",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hotel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal/dimension/hotel.json",
+          "src/main/java/net/mcreator/liminal/world/dimension/HotelDimension.java",
+          "src/main/resources/data/liminal/dimension_type/hotel.json"
+        ]
+      }
+    },
+    {
+      "name": "SwapDimensionOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swap_dimension_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/liminal/procedures/SwapDimensionOnKeyPressedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SwapDimension",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swap_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/liminal/network/SwapDimensionMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "LiminalTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liminal_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal/neoforge/biome_modifier/liminal_tree_biome_modifier.json",
+          "src/main/resources/data/liminal/worldgen/placed_feature/liminal_tree.json",
+          "src/main/resources/data/liminal/worldgen/configured_feature/liminal_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "HotelCarpet",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hotel_carpet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal/models/item/hotel_carpet.json",
+          "src/main/resources/assets/liminal/blockstates/hotel_carpet.json",
+          "src/main/resources/data/liminal/loot_table/blocks/hotel_carpet.json",
+          "src/main/resources/assets/liminal/models/block/hotel_carpet.json",
+          "src/main/java/net/mcreator/liminal/block/HotelCarpetBlock.java",
+          "src/main/resources/assets/liminal/items/hotel_carpet.json"
+        ]
+      }
+    },
+    {
+      "name": "HotelWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hotel_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal/loot_table/blocks/hotel_wall.json",
+          "src/main/resources/assets/liminal/blockstates/hotel_wall.json",
+          "src/main/resources/assets/liminal/items/hotel_wall.json",
+          "src/main/java/net/mcreator/liminal/block/HotelWallBlock.java",
+          "src/main/resources/assets/liminal/models/block/hotel_wall.json",
+          "src/main/resources/assets/liminal/models/item/hotel_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "HotelDoorDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hotel_door_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal/items/hotel_door_door.json",
+          "src/main/resources/assets/liminal/models/block/hotel_door_door_top_right_open.json",
+          "src/main/java/net/mcreator/liminal/block/HotelDoorDoorBlock.java",
+          "src/main/resources/assets/liminal/models/block/hotel_door_door_bottom_right.json",
+          "src/main/resources/assets/liminal/models/block/hotel_door_door_top_left.json",
+          "src/main/resources/assets/liminal/models/block/hotel_door_door_top_right.json",
+          "src/main/resources/assets/liminal/models/item/hotel_door_door.json",
+          "src/main/resources/assets/liminal/models/block/hotel_door_door_top_left_open.json",
+          "src/main/resources/data/liminal/loot_table/blocks/hotel_door_door.json",
+          "src/main/resources/assets/liminal/blockstates/hotel_door_door.json",
+          "src/main/resources/assets/liminal/models/block/hotel_door_door_bottom_left.json",
+          "src/main/resources/assets/liminal/models/block/hotel_door_door_bottom_left_open.json",
+          "src/main/resources/assets/liminal/models/block/hotel_door_door_bottom_right_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Window",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal/loot_table/blocks/window.json",
+          "src/main/resources/assets/liminal/blockstates/window.json",
+          "src/main/resources/assets/liminal/models/block/window.json",
+          "src/main/java/net/mcreator/liminal/block/entity/WindowBlockEntity.java",
+          "src/main/java/net/mcreator/liminal/block/WindowBlock.java",
+          "src/main/resources/assets/liminal/models/item/window.json",
+          "src/main/resources/assets/liminal/items/window.json"
+        ]
+      }
+    },
+    {
+      "name": "RedactedEntity",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "redacted_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/liminal/entity/RedactedEntityEntity.java",
+          "src/main/java/net/mcreator/liminal/client/renderer/RedactedEntityRenderer.java",
+          "src/main/resources/assets/liminal/models/item/redacted_entity_spawn_egg.json",
+          "src/main/resources/assets/liminal/items/redacted_entity_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PowerCell",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_cell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal/models/item/power_cell.json",
+          "src/main/resources/assets/liminal/items/power_cell.json",
+          "src/main/java/net/mcreator/liminal/item/PowerCellItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PowerCell1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_cell_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/liminal/item/PowerCell1Item.java",
+          "src/main/resources/assets/liminal/items/power_cell_1.json",
+          "src/main/resources/assets/liminal/models/item/power_cell_1.json"
+        ]
+      }
+    },
+    {
+      "name": "PowerCell2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_cell_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal/models/item/power_cell_2.json",
+          "src/main/resources/assets/liminal/items/power_cell_2.json",
+          "src/main/java/net/mcreator/liminal/item/PowerCell2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "PowerCell3",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_cell_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/liminal/item/PowerCell3Item.java",
+          "src/main/resources/assets/liminal/models/item/power_cell_3.json",
+          "src/main/resources/assets/liminal/items/power_cell_3.json"
+        ]
+      }
+    },
+    {
+      "name": "PowerBlockOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_block_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/liminal/procedures/PowerBlockOnTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "PerecentDipslay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perecent_dipslay",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/liminal/procedures/PerecentDipslayProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "PowerCellGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_cell_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/liminal/world/inventory/PowerCellGUIMenu.java",
+          "src/main/java/net/mcreator/liminal/client/gui/PowerCellGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "PowerBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/liminal/block/entity/PowerBlockBlockEntity.java",
+          "src/main/resources/assets/liminal/models/item/power_block.json",
+          "src/main/resources/assets/liminal/models/block/power_block.json",
+          "src/main/resources/data/liminal/loot_table/blocks/power_block.json",
+          "src/main/resources/assets/liminal/items/power_block.json",
+          "src/main/java/net/mcreator/liminal/block/PowerBlockBlock.java",
+          "src/main/resources/assets/liminal/blockstates/power_block.json"
+        ]
+      }
+    },
+    {
+      "name": "PlayerTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_tick_update",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/liminal/procedures/PlayerTickUpdateProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:HotelDoorDoor"
+    ],
+    "BLOCKS:minecraft:logs_that_burn": [
+      "TAG:mod:hotel_door_logs"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "TAG:mod:hotel_door_logs"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:HotelDoorDoor"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "biome.liminal.hotel_biome": "Hotel Biome",
+      "key.liminal.swap_dimension": "Swap Dimension",
+      "item.liminal.hotel_carpet": "Hotel Carpet",
+      "item.liminal.hotel_wall": "Hotel Wall",
+      "item.liminal.hotel_door_door": "Hotel Door Door",
+      "item.liminal.window": "Window",
+      "item.liminal.redacted_entity_spawn_egg": "--- Spawn Egg",
+      "entity.liminal.redacted_entity": "---",
+      "item.liminal.power_cell": "Empty Power Cell",
+      "item.liminal.power_cell_1": "Power Cell 33%",
+      "item.liminal.power_cell_2": "Power Cell 66%",
+      "item.liminal.power_cell_3": "Power Cell 100%",
+      "item.liminal.power_block": "Power Block"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/liminal/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/liminal/init/LiminalModScreens.java",
+      "src/main/java/net/mcreator/liminal/init/LiminalModMenus.java",
+      "src/main/java/net/mcreator/liminal/init/LiminalModKeyMappings.java",
+      "src/main/java/net/mcreator/liminal/init/LiminalModBlocks.java",
+      "src/main/java/net/mcreator/liminal/init/LiminalModBlockEntities.java",
+      "src/main/java/net/mcreator/liminal/init/LiminalModItems.java",
+      "src/main/java/net/mcreator/liminal/init/LiminalModEntityRenderers.java",
+      "src/main/java/net/mcreator/liminal/init/LiminalModEntities.java",
+      "src/main/java/net/mcreator/liminal/init/LiminalModTabs.java",
+      "src/main/java/net/mcreator/liminal/LiminalMod.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "liminal",
+    "modName": "Liminal",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "modElementsPackage": "net.mcreator.liminal"
+  },
+  "mcreatorVersion": 202600114619
+}

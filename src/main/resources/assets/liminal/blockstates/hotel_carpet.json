@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "liminal:block/hotel_carpet"
+    },
+    "facing=east": {
+      "model": "liminal:block/hotel_carpet",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "liminal:block/hotel_carpet",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "liminal:block/hotel_carpet",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "liminal:hotel_biome",
+  "features": "liminal:liminal_tree",
+  "step": "surface_structures"
+}

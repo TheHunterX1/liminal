@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liminal:block/new_piskel-5.png_4",
+    "up": "liminal:block/new_piskel-5.png_4",
+    "north": "liminal:block/new_piskel-5.png_4",
+    "east": "liminal:block/new_piskel-5.png_4",
+    "south": "liminal:block/new_piskel-5.png_4",
+    "west": "liminal:block/new_piskel-5.png_4",
+    "particle": "liminal:block/new_piskel-5.png_4"
+  },
+  "render_type": "solid"
+}
