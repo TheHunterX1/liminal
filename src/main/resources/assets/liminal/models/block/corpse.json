@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "solid",
+      "model": "liminal:models/item/corpse.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "m_1b2da16c-7302-9663-c9df-aae99bca934a": "liminal:block/corpse",
+        "particle": "liminal:block/corpse"
+      }
+    }
+  },
+  "textures": {
+    "particle": "liminal:block/corpse"
+  },
+  "render_type": "solid"
+}

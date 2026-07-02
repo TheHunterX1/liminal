@@ -356,6 +356,34 @@
           "src/main/resources/assets/liminal/models/block/extraction_block.json"
         ]
       }
+    },
+    {
+      "name": "Corpse",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corpse",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal/models/item/corpse.json",
+          "src/main/resources/assets/liminal/items/corpse.json",
+          "src/main/resources/assets/liminal/models/block/corpse.json",
+          "src/main/resources/assets/liminal/blockstates/corpse.json",
+          "src/main/java/net/mcreator/liminal/block/CorpseBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CorpseLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corpse_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal/loot_table/blocks/corpse.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -395,7 +423,8 @@
       "item.liminal.power_cell_2": "Power Cell 66%",
       "item.liminal.power_cell_3": "Power Cell 100%",
       "item.liminal.power_block": "Power Block",
-      "item.liminal.extraction_block": "Extraction Block"
+      "item.liminal.extraction_block": "Extraction Block",
+      "item.liminal.corpse": "Corpse"
     }
   },
   "metadata": {

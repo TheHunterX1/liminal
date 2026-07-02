@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "liminal:block/corpse"
+    },
+    "facing=east": {
+      "model": "liminal:block/corpse",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "liminal:block/corpse",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "liminal:block/corpse",
+      "y": 270
+    }
+  }
+}

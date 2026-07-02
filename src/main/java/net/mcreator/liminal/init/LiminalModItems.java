@@ -34,6 +34,7 @@ public class LiminalModItems {
 	public static final DeferredItem<Item> POWER_CELL_3;
 	public static final DeferredItem<Item> POWER_BLOCK;
 	public static final DeferredItem<Item> EXTRACTION_BLOCK;
+	public static final DeferredItem<Item> CORPSE;
 	static {
 		HOTEL_CARPET = block(LiminalModBlocks.HOTEL_CARPET);
 		HOTEL_WALL = block(LiminalModBlocks.HOTEL_WALL);
@@ -46,6 +47,7 @@ public class LiminalModItems {
 		POWER_CELL_3 = register("power_cell_3", PowerCell3Item::new);
 		POWER_BLOCK = block(LiminalModBlocks.POWER_BLOCK);
 		EXTRACTION_BLOCK = block(LiminalModBlocks.EXTRACTION_BLOCK);
+		CORPSE = block(LiminalModBlocks.CORPSE);
 	}
 
 	// Start of user code block custom items

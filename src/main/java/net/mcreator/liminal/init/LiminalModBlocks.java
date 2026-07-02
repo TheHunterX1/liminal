@@ -22,6 +22,7 @@ public class LiminalModBlocks {
 	public static final DeferredBlock<Block> WINDOW;
 	public static final DeferredBlock<Block> POWER_BLOCK;
 	public static final DeferredBlock<Block> EXTRACTION_BLOCK;
+	public static final DeferredBlock<Block> CORPSE;
 	static {
 		HOTEL_CARPET = register("hotel_carpet", HotelCarpetBlock::new);
 		HOTEL_WALL = register("hotel_wall", HotelWallBlock::new);
@@ -29,6 +30,7 @@ public class LiminalModBlocks {
 		WINDOW = register("window", WindowBlock::new);
 		POWER_BLOCK = register("power_block", PowerBlockBlock::new);
 		EXTRACTION_BLOCK = register("extraction_block", ExtractionBlockBlock::new);
+		CORPSE = register("corpse", CorpseBlock::new);
 	}
 
 	// Start of user code block custom blocks
