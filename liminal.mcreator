@@ -384,6 +384,34 @@
           "src/main/resources/data/liminal/loot_table/blocks/corpse.json"
         ]
       }
+    },
+    {
+      "name": "RuinedPortal",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruined_portal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal/worldgen/structure_set/ruined_portal.json",
+          "src/main/resources/data/liminal/worldgen/template_pool/ruined_portal.json",
+          "src/main/resources/data/liminal/worldgen/structure/ruined_portal.json"
+        ]
+      }
+    },
+    {
+      "name": "Portal",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal/worldgen/structure_set/portal.json",
+          "src/main/resources/data/liminal/worldgen/structure/portal.json",
+          "src/main/resources/data/liminal/worldgen/template_pool/portal.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
